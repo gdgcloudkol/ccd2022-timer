@@ -2,7 +2,7 @@ import { ANIMATIONS } from './movingAnimation';
 import { padStart } from 'lodash';
 import lottie from 'lottie-web';
 
-const EVENT_DATE = new Date('August 16, 2022 09:00 GMT+5:30');
+const EVENT_DATE = new Date('August 27, 2022 09:00 GMT+5:30');
 
 const FRAME_RANGES = {
 	nine: {

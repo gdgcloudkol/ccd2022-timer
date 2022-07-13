@@ -24,63 +24,63 @@ function Countdown () {
     }, [loaded]);
 
     return (
-        <div className={`${style.countdownContainer}`} id="timer">
+        <div className="countdownContainer" id="timer">
             <div
-                className={`${style.countdown}`}
+                className="countdown"
                 aria-hidden="true"
                 role="presentation"
             >
-                <div className={`${style.unitWrapper}`}>
+                <div className="unitWrapper">
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="days"
                         data-max-number="nine"
                     />
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="days"
                         data-max-number="nine"
                     />
-                    <span className={`${style.unitLabel}`}>D</span>
+                    <span className="unitLabel">D</span>
                 </div>
-                <div className={`${style.unitWrapper}`}>
+                <div className="unitWrapper">
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="hours"
                         data-max-number="two"
                     />
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="hours"
                         data-max-number="nine"
                     />
-                    <span className={`${style.unitLabel}`}>H</span>
+                    <span className="unitLabel">H</span>
                 </div>
-                <div className={`${style.unitWrapper}`}>
+                <div className="unitWrapper">
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="minutes"
                         data-max-number="five"
                     />
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="minutes"
                         data-max-number="nine"
                     />
-                    <span className={`${style.unitLabel}`}>M</span>
+                    <span className="unitLabel">M</span>
                 </div>
-                <div className={`${style.unitWrapper}`}>
+                <div className="unitWrapper">
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="seconds"
                         data-max-number="five"
                     />
                     <div
-                        className={`${style.digit} js-digit`}
+                        className="digit js-digit"
                         data-unit="seconds"
                         data-max-number="nine"
                     />
-                    <span className={`${style.unitLabel}`}>S</span>
+                    <span className="unitLabel">S</span>
                 </div>
             </div>
         </div>
