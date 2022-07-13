@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Countdown Timer for Cloud Community Days 2022 Kolkata
+
+<img width="100%" src="https://i.imgur.com/byTOJTK.png">
+
+
+This project uses lottie animation from [I/O Extended 2019 Kuala Lumpur PWA](https://github.com/GDGKualaLumpur/ioxkl19).
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
